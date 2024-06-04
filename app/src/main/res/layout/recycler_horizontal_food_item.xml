@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_view"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/gray"
+    card_view:cardUseCompatPadding="true"
+    android:outlineSpotShadowColor="@color/gray"
+    android:outlineAmbientShadowColor="@color/gray">
+    <LinearLayout
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        android:orientation="vertical"
+        android:background="@color/gray"
+        >
+        <TextView
+            android:id="@+id/titleItem"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="start"
+            android:text="@string/app_name"
+            android:textColor="@color/black"
+            android:fontFamily="@font/geomanist_regular"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:background="@color/gray"
+            android:paddingTop="15dp"
+            android:paddingStart="10dp"
+            tools:ignore="RtlSymmetry" />
+        <ImageView
+            android:id="@+id/imageItem"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:scaleType="fitEnd"
+            android:background="@color/gray"
+            android:src="@mipmap/ic_launcher_round"
+            android:paddingEnd="10dp"
+            android:paddingBottom="5dp"
+            android:contentDescription="@string/image"
+            tools:ignore="RtlSymmetry" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

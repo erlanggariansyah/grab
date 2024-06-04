@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Grab</string>
+    <string name="search_hint">Cari di aplikasi Grab</string>
+    <string name="splash_text">by Angga</string>
+    <string name="daftar">Daftar</string>
+    <string name="masuk">Masuk</string>
+    <string name="image">Image</string>
+    <string name="ponsel">Ponsel</string>
+    <string name="kirimi_saya_kode_melalui_whatsapp">Kirimi saya kode melalui <b>WhatsApp</b></string>
+    <string name="submit">Submit</string>
+    <string name="_000000000">000000000</string>
+    <string name="otp_title">Masukkan kode 6 digit yang dikirim\nke %s melalui <b>WhatsApp</b></string>
+    <string name="_000000">000000</string>
+    <string name="otp_desc_hint">Dapatkan kode baru atau kirim melalui SMS di %s</string>
+    <string name="nama">Nama</string>
+    <string name="biasanya_kamu_dipanggil_apa">Biasanya kamu dipanggil apa?</string>
+    <string name="snk_register">Dengan melanjutkan, kamu menyetujui Ketentuan Layanan dan Pemberitahuan Privasi kami.</string>
+    <string name="main_title">Di sini untuk pertama\nkalinya?</string>
+    <string name="main_subtitle">Daftar dan lakukan lebih banyak\nhal bersama Grab!</string>
+    <string name="main_prize_title">Daftar dan dapatkan\nhadiahnya</string>
+    <string name="main_prize_subtitle">Kami akan bantu kamu memulai\ndengan hadiah harian selama 3 hari\npertamamu!</string>
+    <string name="hadiah_1">Hadiah 1</string>
+    <string name="hadiah_2">Hadiah 2</string>
+    <string name="hadiah_3">Hadiah 3</string>
+</resources>
